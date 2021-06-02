@@ -1,0 +1,25 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>430</x><y>560</y><w>100</w><h>30</h></coordinates><panel_attributes>Stadtbibliothek</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>550</x><y>560</y><w>130</w><h>30</h></coordinates><panel_attributes>Universitätsbibliothek</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>260</x><y>80</y><w>120</w><h>80</h></coordinates><panel_attributes>Benutzer
+--
+--
+ausleihen
+zurückgeben</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>310</x><y>230</y><w>110</w><h>30</h></coordinates><panel_attributes>Wissenschaftler</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>200</x><y>230</y><w>100</w><h>30</h></coordinates><panel_attributes>Gäste</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>230</x><y>250</y><w>220</w><h>340</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;10;10;320;200;320</additional_attributes></element><element><id>Relation</id><coordinates><x>130</x><y>100</y><w>520</w><h>550</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>130;10;10;10;10;530;500;530;500;490</additional_attributes></element><element><id>Relation</id><coordinates><x>300</x><y>150</y><w>30</w><h>60</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;40</additional_attributes></element><element><id>Relation</id><coordinates><x>240</x><y>170</y><w>150</w><h>80</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;60;10;20;130;20;130;60</additional_attributes></element><element><id>Relation</id><coordinates><x>533</x><y>440</y><w>30</w><h>100</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;80</additional_attributes></element><element><id>Relation</id><coordinates><x>473</x><y>500</y><w>150</w><h>80</h></coordinates><panel_attributes></panel_attributes><additional_attributes>10;60;10;20;130;20;130;60</additional_attributes></element><element><id>UMLClass</id><coordinates><x>483</x><y>380</y><w>110</w><h>70</h></coordinates><panel_attributes>Bibliothek
+--
+name: String
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>483</x><y>250</y><w>100</w><h>80</h></coordinates><panel_attributes>Medium
+--
+name: String
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>533</x><y>320</y><w>30</w><h>80</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element><element><id>Relation</id><coordinates><x>373</x><y>100</y><w>190</w><h>170</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>170;150;170;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>373</x><y>100</y><w>190</w><h>30</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;10;170;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>693</x><y>200</y><w>100</w><h>60</h></coordinates><panel_attributes>Buch
+--
+isbn: String</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>693</x><y>270</y><w>100</w><h>80</h></coordinates><panel_attributes>Zeitschrift
+--
+ausgabe: int
+jahr: int
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>693</x><y>360</y><w>100</w><h>80</h></coordinates><panel_attributes>Video
+--
+regisseur: String
+dauer: int
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>573</x><y>290</y><w>140</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;120;10</additional_attributes></element><element><id>Relation</id><coordinates><x>653</x><y>220</y><w>60</w><h>190</h></coordinates><panel_attributes></panel_attributes><additional_attributes>40;170;10;170;10;10;40;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>873</x><y>200</y><w>100</w><h>60</h></coordinates><panel_attributes>Autor
+--
+name: String
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>783</x><y>220</y><w>110</w><h>30</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>90;10;10;10</additional_attributes></element></diagram>
